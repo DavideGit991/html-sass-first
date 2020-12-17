@@ -5,11 +5,13 @@
 @import "footer";
 
 *{
+  color: $title-color;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .container{
+  @include flex-center;
   background-color: $color-container;
   height: 80vh;
 }

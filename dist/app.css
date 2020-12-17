@@ -1,3 +1,13 @@
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 header {
   height: 180px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -30,12 +40,16 @@ footer {
 }
 
 * {
+  color: darkred;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(129, 211, 129, 0.5);
   height: 80vh;
 }

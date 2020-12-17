@@ -14,3 +14,11 @@
   top: 0;
   left: 0;
 }
+
+
+@each $i in h3,h5{
+  #{$i}{
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

@@ -5,7 +5,8 @@ header{
   flex-direction: column;
     nav{
       @include flex-center;
-      height: 125px;
+      @include fixed-top;
+      height:$h-nav;
       width: 100%;
       background-color: lightblue;
     }

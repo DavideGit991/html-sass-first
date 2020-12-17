@@ -1,6 +1,6 @@
 header {
-  height: 200px;
-  background-color: rgba(105, 105, 105, 0.3);
+  height: 180px;
+  background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid black;
   display: flex;
   justify-content: center;
@@ -12,14 +12,17 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 125px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
   width: 100%;
   background-color: lightblue;
 }
 
 footer {
-  height: 200px;
-  background-color: rgba(105, 105, 105, 0.3);
+  height: 180px;
+  background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid black;
   display: flex;
   justify-content: center;
@@ -30,5 +33,10 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  background-color: rgba(129, 211, 129, 0.5);
+  height: 80vh;
 }
 

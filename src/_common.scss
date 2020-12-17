@@ -1,0 +1,11 @@
+
+@mixin header-footer{
+  height: $h-header-footer;
+  background-color: $top-bottom;
+  border: 1px solid black;
+}
+@mixin flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
